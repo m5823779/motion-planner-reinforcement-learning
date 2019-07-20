@@ -16,7 +16,7 @@ Input(State):
   4. Robot yaw angular (1 Dimensions)
   5. The degrees to face the target i.e.|Yaw - Relative angle| (1 Dimensions)
   
-  Total: 16 Dimensions
+     Total: 16 Dimensions
 
 
 Normalize input(state):
@@ -48,13 +48,18 @@ Training env: gazebo
 ## Installation Dependencies:
 
 Python3
+
 Tensorflow
+
 ```
 pip3 install tensorflow-gpu
 ```
 ROS Kinetic
+
 http://wiki.ros.org/kinetic/Installation/Ubuntu
+
 Gazebo7 (When you install ros kinetic it also install gazebo7)
+
 http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0
 
 
