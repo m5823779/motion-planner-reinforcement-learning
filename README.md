@@ -21,11 +21,17 @@ Input(State):
 
 Normalize input(state):
   1. Laser finding / Maximum laser finding range
+  
   2. Past action (Orignal)
+  
   3. Target position in robot frame
+      
       a. Relative distance / Diagonal length in the map
+  
       b. Relative angle / 360
+  
   4. Robot yaw angular / 360
+  
   5. The degrees to face the target / 180
 
 
