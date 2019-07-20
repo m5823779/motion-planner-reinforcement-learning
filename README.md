@@ -15,7 +15,9 @@ Input(State):
       b. Relative angle (Polar coordinates)
   4. Robot yaw angular (1 Dimensions)
   5. The degrees to face the target i.e.|Yaw - Relative angle| (1 Dimensions)
+  
   Total: 16 Dimensions
+
 
 Normalize input(state):
   1. Laser finding / Maximum laser finding range
@@ -26,16 +28,20 @@ Normalize input(state):
   4. Robot yaw angular / 360
   5. The degrees to face the target / 180
 
+
 Output(Action):
 Linear velocity (0~0.25 m/s) (1 Dimensions)
 Angular velocity (-0.5~0.5 rad/s) (1 Dimensions)
+
 
 Reward:
 Arrive the target: +120
 Hit the wall: -100
 Else: 500*(Past relative distance - current relative distance)
 
+
 Algorithm: DDPG (Actor with batch normlization Critic without batch normlization)
+
 
 Training env: gazebo
 
