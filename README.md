@@ -74,10 +74,24 @@ http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0
 cd
 mkdir catkin_ws && mkdir catkin_ws/src
 cd catkin_ws/src
-git clone git clone https://github.com/m5823779/MotionPlannerUsingDDPG.git project
+git clone https://github.com/m5823779/MotionPlannerUsingDDPG.git project
+git clone https://github.com/m5823779/turtlebot3
+git clone https://github.com/m5823779/turtlebot3_msgs
+git clone https://github.com/m5823779/turtlebot3_simulations
 cd ..
 catkin_make
 ```
+And add following line in ~/.bashrc
+```
+export TURTLEBOT3_MODEL=burger
+source /home/"Enter your user name"/catkin_ws/devel/setup.bash
+```
+
+Then enter following command in terminal
+```
+source ~/.bashrc
+```
+
 
 Demo:
 First run:
