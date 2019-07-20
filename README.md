@@ -8,23 +8,23 @@ Goal: Let robot(turtlebot) navigate to the target(enter green circle)
 Demo video (Speed up ten times )
 
 Input(State):
-	1.	Laser finding (10 Dimensions)
-  2.	Past action (Linear velocity & Angular velocity) (2 Dimensions)
-	3.	Target position in robot frame (2 Dimensions)
+  1. Laser finding (10 Dimensions)
+  2. Past action (Linear velocity & Angular velocity) (2 Dimensions)
+  3. Target position in robot frame (2 Dimensions)
       a. Relative distance
       b. Relative angle (Polar coordinates)
-  4.  Robot yaw angular (1 Dimensions)
-  5.  The degrees to face the target i.e.|Yaw - Relative angle| (1 Dimensions)
+  4. Robot yaw angular (1 Dimensions)
+  5. The degrees to face the target i.e.|Yaw - Relative angle| (1 Dimensions)
   Total: 16 Dimensions
 
 Normalize input(state):
-  1.	Laser finding / Maximum laser finding range
-  2.	Past action (Orignal)
-  3.	Target position in robot frame
+  1. Laser finding / Maximum laser finding range
+  2. Past action (Orignal)
+  3. Target position in robot frame
       a. Relative distance / Diagonal length in the map
       b. Relative angle / 360
-  4.  Robot yaw angular / 360
-  5.  The degrees to face the target / 180
+  4. Robot yaw angular / 360
+  5. The degrees to face the target / 180
 
 Output(Action):
 Linear velocity (0~0.25 m/s) (1 Dimensions)
