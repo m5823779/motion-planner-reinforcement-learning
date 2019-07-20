@@ -5,6 +5,7 @@ The goal is to use deep reinforcement learning algorithms: Deep Deterministic Po
 Goal: Let robot(turtlebot) navigate to the target(enter green circle)
 
 ![image](https://github.com/m5823779/MotionPlannerUsingDDPG/blob/master/demo/demo.gif)
+Demo video (Speed up ten times )
 
 Input(State):
 	1.	Laser finding (10 Dimensions)
