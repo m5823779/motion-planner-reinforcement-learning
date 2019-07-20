@@ -67,7 +67,8 @@ http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0
 ```
 cd
 mkdir catkin_ws && mkdir catkin_ws/src
-git clone link_git
+cd catkin_ws/src
+git clone git clone https://github.com/m5823779/MotionPlannerUsingDDPG.git project
 cd ..
 catkin_make
 ```
