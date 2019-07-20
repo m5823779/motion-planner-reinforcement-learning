@@ -94,12 +94,20 @@ is_training = True   # In: project/src/ddpg_stage_1.py
 ## Reference:
 
 Idea:
+
 https://arxiv.org/pdf/1703.00420.pdf
+
 Network structure:
+
 https://github.com/floodsung/DDPG
+
 Ros workspace:
+
 https://github.com/ROBOTIS-GIT/turtlebot3
+
 https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+
+
 https://github.com/ROBOTIS-GIT/turtlebot3_simulations
 
 https://github.com/dranaju/project
