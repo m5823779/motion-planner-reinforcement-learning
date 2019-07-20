@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-140000"
+all_model_checkpoint_paths: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-100000"
+all_model_checkpoint_paths: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-110000"
+all_model_checkpoint_paths: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-120000"
+all_model_checkpoint_paths: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-130000"
+all_model_checkpoint_paths: "/home/airlab/catkin_ws/src/project/src/model/actor/actor-network-140000"

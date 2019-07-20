@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="project" type="ddpg_stage_1.py" name="ddpg_stage_1" output="screen" />
+</launch>
