@@ -60,6 +60,7 @@ Training env: gazebo
 ``
 pip3 install tensorflow-gpu
 ``
+
 3) ROS Kinetic
 
 > http://wiki.ros.org/kinetic/Installation/Ubuntu
