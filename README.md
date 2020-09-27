@@ -56,7 +56,6 @@ Training env: gazebo
 1) Python3
 
 2) Tensorflow
-
 ``
 pip3 install tensorflow-gpu
 ``
