@@ -53,18 +53,18 @@ Training env: gazebo
 
 ### Installation Dependencies:
 
-Python3
+1) Python3
 
-Tensorflow
+2) Tensorflow
 
 ``
 pip3 install tensorflow-gpu
 ``
-ROS Kinetic
+3) ROS Kinetic
 
 > http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-Gazebo7 (When you install ros kinetic it also install gazebo7)
+4) Gazebo7 (When you install ros kinetic it also install gazebo7)
 
 > http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0
 
