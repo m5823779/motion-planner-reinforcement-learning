@@ -9,9 +9,7 @@ Demo video (Speed up ten times )
 
 ### Introduce 
 
-With the progress of technology, more and more service robots appear in our daily lives. The key technologies of service robots involve many fields. Including: mobile navigation, system control, mechanism modules, vision modules, voice modules, artificial intelligence, and other related technical fields. In this research we will focus on developing indoor robot navigation.
-
-In this project, we present a learning-based mapless motion planner by taking the sparse laser single and the target position in the robot frame (relative distance and relative angles) as input and the continuous steering commands as output. This saves us from using traditional methods such as "SLAM" to have maps and can also do the navigation. The trained motion planner can also be directly applied in environments which it never seen before.
+More and more service robots appear in our daily lives. The key technologies of service robots involve many fields. Including navigation, system control, mechanism modules, vision modules, voice modules, artificial intelligence, etc. In this research, we present a learning-based mapless motion planner. This saves us from using traditional methods such as "SLAM" to have maps and can also do the navigation.
 
 Input(State):
 1) Laser finding (10 Dimensions)
